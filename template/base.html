@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{PAGE_TITLE}} | {{SITE_NAME}}</title>
+
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/themes/{{THEME}}.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">{{SITE_TYPE}}</p>
+        <h1>{{SITE_NAME}}</h1>
+        <p class="tagline">{{TAGLINE}}</p>
+
+        <nav class="nav">
+          {{NAV}}
+        </nav>
+      </div>
+
+      <div class="hero-media">
+        {{PROFILE_BLOCK}}
+        <img class="hero-illustration" src="{{HERO_IMAGE}}" alt="Theme illustration" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="card markdown-body">
+      {{CONTENT}}
+    </article>
+  </main>
+
+  <footer class="footer">
+    {{FOOTER_TEXT}}
+  </footer>
+</body>
+</html>

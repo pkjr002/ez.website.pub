@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{PAGE_TITLE}} | {{SITE_NAME}}</title>
+
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+</head>
+<body>
+  <div class="site-shell layout-sidebar">
+    <aside class="sidebar">
+      {{PROFILE_BLOCK}}
+
+      <h1>{{SITE_NAME}}</h1>
+      <p class="eyebrow">{{SITE_TYPE}}</p>
+      <p class="tagline">{{TAGLINE}}</p>
+
+      <nav class="nav">
+        {{NAV}}
+      </nav>
+    </aside>
+
+    <main class="main-panel">
+      <div class="content-wrap">
+        <article class="card markdown-body">
+          {{CONTENT}}
+        </article>
+
+        <footer class="footer">
+          {{FOOTER_TEXT}}
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
